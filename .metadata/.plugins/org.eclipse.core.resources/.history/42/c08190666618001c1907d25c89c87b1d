@@ -1,0 +1,14 @@
+package com.simplilearntraining.practice;
+
+public class Variables {
+    int n=10;
+    static int a=50;
+    
+    void method() {
+    	int m=400;
+    }
+	 
+    System.out.println("the value is:"+a);
+	}
+
+

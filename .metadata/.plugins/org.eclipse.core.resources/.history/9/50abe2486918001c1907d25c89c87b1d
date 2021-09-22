@@ -1,0 +1,17 @@
+package com.simplilearntraining.practice;
+
+public class Variables {
+    public int n=10;  // since the access modifier is public it can be accessed over other class also
+    public static int a=50;
+    
+    private int x=100;
+    
+    
+    void method() {
+    	int m=100;  // m can be accessed within the method only
+    	 System.out.println("hi the value of m is:"+m);
+    }
+    
+	}
+
+ 

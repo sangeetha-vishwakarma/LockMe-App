@@ -1,0 +1,14 @@
+package com.simplilearntraining.practice;
+
+public class Lesson1 {
+
+	public static void main(String[] args) {
+		 
+		 Variables obj=new Variables();
+		 obj.method();
+		 
+		 System.out.println(obj.n); // accessing instance variable
+		 System.out.println(Variables.a);
+	}
+
+}

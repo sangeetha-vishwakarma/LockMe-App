@@ -1,0 +1,15 @@
+package com.w3Schools.practice;
+
+public class practice {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello World!!");
+		String name = "Joey";
+		final int num=10;
+		//num=20;
+		System.out.println(name);
+		System.out.println(num);
+	}
+
+}

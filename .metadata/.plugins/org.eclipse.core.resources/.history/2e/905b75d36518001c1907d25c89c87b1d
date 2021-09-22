@@ -1,0 +1,12 @@
+package com.simplilearntraining.practice;
+
+public class Lesson1 {
+
+	public static void main(String[] args) {
+		Variables obj=new Variables(); //creating dynamic object
+		obj.method;
+		System.out.println(Variables.m);
+
+	}
+
+}

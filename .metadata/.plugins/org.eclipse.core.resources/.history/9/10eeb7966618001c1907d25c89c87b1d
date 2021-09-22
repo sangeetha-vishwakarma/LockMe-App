@@ -1,0 +1,17 @@
+package com.simplilearntraining.practice;
+
+public class Variables {
+    int n=10;
+    static int a=50;
+    Variables obj=new Variables();
+    
+    void method() {
+    	int m=400;
+    }
+    System.out.println("Hello World!");
+
+	 
+    System.out.println("the value is:"+obj.a);
+	}
+
+

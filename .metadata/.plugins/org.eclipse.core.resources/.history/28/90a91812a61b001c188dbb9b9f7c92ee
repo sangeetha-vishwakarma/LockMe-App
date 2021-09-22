@@ -1,0 +1,20 @@
+package com.lockme.application;
+
+public class MenuOptions {
+
+	
+	public static void printWelcomeScreen(String appName, String developerName) {
+		String companyDetails = String.format("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"
+				+ "$$ Welcome to %s.com. \n" + "$$ This application is developed by %s.\n"
+				+ "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n", appName, developerName);
+		String appFunction = "You can use this application to :-\n"
+				+ "• Retrieve all file names in the \"main\" folder\n"
+				+ "• Search, add, or delete files in \"main\" folder.\n"
+				+ "\n$$ Please make ensure to enter correct filename for searching or deleting.$$\n";
+		System.out.println(companyDetails);
+
+		System.out.println(appFunction);
+		
+}
+
+}

@@ -1,0 +1,26 @@
+package com.w3Schools.practice;
+
+public class NarrowingTypecast {
+
+	public static void main(String[] args) {
+		 
+		
+		double m=90.33;
+		int n= (int)m; //explicit conversion
+		
+		int sum1 = 100 + 50;        // 150 (100 + 50)
+		int sum2 = sum1 + 250;      // 400 (150 + 250)
+		int sum3 = sum2 + sum2;      // 800 (400 + 400)
+		
+		System.out.println("---------------------");
+		System.out.println(sum1);
+		System.out.println(sum2);
+		System.out.println(sum3);
+		
+		System.out.println("---------------------");
+		
+		System.out.println("integer value:" +n);
+		System.out.println("double value:" +m);
+	}
+
+}

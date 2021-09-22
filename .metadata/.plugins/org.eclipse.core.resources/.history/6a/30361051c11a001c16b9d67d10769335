@@ -1,0 +1,17 @@
+package com.w3Schools.practice;
+
+public class practice {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello World!!");
+		String name = "Joey";
+		final int num=10;  //num becomes read only
+		//num=20;
+		float num1=10.33f; 
+		System.out.println(name);
+		System.out.println(num);
+		System.out.println(num1);
+	}
+
+}
