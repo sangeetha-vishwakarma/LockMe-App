@@ -1,0 +1,21 @@
+package com.LockMeApp;
+
+public class LockMe {
+
+	public static void main(String[] args) {
+		 
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		System.out.println("Welcome to the LockMe App Created by Sangeetha N!");
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		System.out.println("Please choose from the below options: ");
+	
+		
+		
+		
+			String menu = "\n\n$$$$$$ Select any option from below and press Enter $$$$$$\n\n"
+					+ "1) Retrieve all files inside \"main\" folder\n" + "2) Display menu for File operations\n"
+					+ "3) Exit program\n";
+			System.out.println(menu);
+	}
+
+}
